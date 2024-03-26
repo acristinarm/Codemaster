@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2024-03-18T23:02:07.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="lhApe-lBXKs_Nn3xSN5u" version="24.0.7" type="device">
+  <diagram name="Página-1" id="f5LVEBRH6Ypl4K2PX8fd">
+    <mxGraphModel dx="1050" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-1" target="E8Fh-FKEK3wveDEmIoOK-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-1" value="Início" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-5" value="Cortar a energia" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="375" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-10" target="E8Fh-FKEK3wveDEmIoOK-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-15" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="E8Fh-FKEK3wveDEmIoOK-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2905" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-10" target="E8Fh-FKEK3wveDEmIoOK-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-16" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="E8Fh-FKEK3wveDEmIoOK-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.4568" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-10" value="Já tem uma lâmpada nova?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="375" y="160" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-11" target="E8Fh-FKEK3wveDEmIoOK-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-11" value="Pegar na escada" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-12" target="E8Fh-FKEK3wveDEmIoOK-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-12" value="Ir comprar" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-17" target="E8Fh-FKEK3wveDEmIoOK-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-17" value="Descer da escada" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="550" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-18" target="E8Fh-FKEK3wveDEmIoOK-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-18" value="Colocar a lâmpada nova" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="470" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-19" target="E8Fh-FKEK3wveDEmIoOK-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-19" value="Retirar a lâmpada antiga" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-20" target="E8Fh-FKEK3wveDEmIoOK-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-20" value="Subir na escada com a lâmpada nova" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-21" target="E8Fh-FKEK3wveDEmIoOK-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-21" value="Deitar fora a lâmpada velha" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="640" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-23" target="E8Fh-FKEK3wveDEmIoOK-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-23" value="Voltar a ligar a energia e acender a luz" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="640" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-24" target="E8Fh-FKEK3wveDEmIoOK-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-24" value="Arrumar a escada" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="640" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-25" value="Fim" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="645" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="E8Fh-FKEK3wveDEmIoOK-34" target="E8Fh-FKEK3wveDEmIoOK-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8Fh-FKEK3wveDEmIoOK-34" value="Voltar para casa" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="315" width="110" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
