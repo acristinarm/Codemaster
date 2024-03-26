@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.class_1{
+    background-color: aquamarine;
+}
+
+span{
+    color: red;
+    font-size: 25px;
+}
+
+.class_2{
+    color: white;
+    background-color: brown;
+}
+
+.class_3{
+    color:yellow;
+    font-size: 10px;
+}

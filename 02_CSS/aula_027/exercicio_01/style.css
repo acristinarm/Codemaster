@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#centrado{
+    text-align: center;
+}
+
+.aqua{
+    background-color: aqua;
+    text-align: justify;
+}
+
+.brown{
+    background-color: brown;
+    color: white;
+    text-align: justify;
+    padding: 50px;
+}
+
+.yellow{
+    background-color: rgb(215, 170, 7);
+    text-align: justify;
+    padding: 50px 200px;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+    text-align: justify;
+    padding-top: 100px;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    text-align: justify;
+    padding-bottom: 100px;
+}
+
+.pink{
+    background-color: pink;
+    text-align: justify;
+    padding-left: 100px;
+}
+
+.violet{
+    background-color: rebeccapurple;
+    color: white;
+    text-align: justify;
+    padding-right: 100px;
+}
+
+.red{
+    background-color: red;
+    text-align: justify;
+    padding: 0px 100px 20px 40px;
+}
+
+.light_blue{
+    background-color: lightseagreen;
+    text-align: justify;
+    padding: 10px 50px 100px;
+}

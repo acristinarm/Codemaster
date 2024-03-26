@@ -1,0 +1,18 @@
+#carouselExampleCaptions .carousel-indicators button{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: brown;
+    opacity: 1;
+}
+
+#carouselExampleCaptions .carousel-indicators button.active{
+    background-color: brown;
+}
+
+.separador{
+    height: 2px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: brown;
+}

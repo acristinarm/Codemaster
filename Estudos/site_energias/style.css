@@ -1,0 +1,104 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 15px 0px;
+    width: 100%;
+    transition-duration: 0.5s;
+
+}
+
+a:hover{
+    background-color: rgb(200, 200, 200);
+}
+
+nav, footer{
+    position: relative;
+    z-index: 30;
+    background-color: rgb(75, 75, 75);
+}
+
+#banner{
+    position: relative;
+    z-index: 20;
+    margin-top: -30px;
+    height: 500px;
+    background-image: url("topo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.título_subt{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.título_subt :nth-child(1){
+    font-size: 2.5rem;
+}
+
+.título_subt :nth-child(2){
+    font-size: 1.25rem;
+}
+
+.vermelho{
+    background-color: red;
+    font-size: 1.75rem;
+}
+
+.energias div{
+    height: 320px;
+    width: 50%;
+    font-size: 1.75rem;
+}
+
+.energias div:hover{
+    filter: brightness(150%);
+}
+
+#solar{
+    background-image: url("solar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#eolica{
+    background-image: url("eolica.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hidro{
+    background-image: url("energia-hidreletrica-fb.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#nuclear{
+    background-image: url("nuclear.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.energias > div > p{
+    padding: 160px 0px;
+}
+
+.energias > div > p:hover{
+    color: red;
+}
+
+.energias{
+    transition-duration: 0.5s;
+}
+
+
+footer{
+    padding: 12px 0px;
+    font-size: 1rem;
+}

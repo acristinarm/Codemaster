@@ -1,0 +1,150 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+.header_footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    background-color: black;
+}
+
+#header{
+    padding: 5px 0px;
+    margin-left: 0px;
+}
+
+#footer{
+    margin: 0px;
+    padding: 15px 0px;
+}
+
+h1{
+    background-color: lightgray;
+    margin: 0px 0px;
+    padding: 18px 0px;
+}
+
+#inicio_2{
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a{
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+}
+
+#inicio_2 a:hover{
+    background-color: white;
+    color: black;
+}
+
+#em_breve:hover::after{
+    content:"EM BREVE";
+    font-size: 10px;
+    color: rgb(125, 125, 125);
+}
+
+#surpresas{
+    padding-top: 25px;
+    width: 98%;
+    height: 360px;
+    margin: auto;
+    background-color: rgb(120, 0, 0);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+#desconto{
+    position: absolute;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    background-color: white;
+    padding: 20px 0px;
+    width: 150px;
+    height: 20px;
+    border-radius: 40px;
+}
+
+#surpresas .surpresas_1:hover ~ #desconto{
+    content:"25% OFF";
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0px;
+    width: 150px;
+    height: 20px;
+    
+}
+
+.surpresas_1{
+    padding-top: 10px;
+    justify-content: space-between;
+    border: 1px solid white;
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+}
+
+#surpresas div:nth-child(1):hover{
+    background-image: url("joia-1.webp");
+    background-size: 200px 260px;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#surpresas div:nth-child(2):hover{
+    background-image: url("joia-2.jpg");
+    background-size: 200px 260px;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#surpresas div:nth-child(3):hover{
+    background-image: url("joia-3.jpg");
+    background-size: contain;
+    color: black;
+}
+
+#surpresas div:nth-child(4):hover{
+    background-image: url("joia-4.webp");
+    background-size: contain;
+    color: black;
+}
+
+#surpresas div:nth-child(5):hover{
+    background-image: url("joia-5.avif");
+    background-size: contain;
+    color: black;
+}
+
+.cinza{
+    background-color: lightgrey;
+    margin: -8px 8px;
+}
+
+p{
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+h3{
+    padding-top: 25px;
+}
+

@@ -1,0 +1,9 @@
+body{
+    background-color: lightgrey;
+}
+
+.separador{
+    height: 2px;
+    width: 150px;
+    background-color: darkblue;
+}

@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+div{
+    margin: auto;
+    width: 30vw;
+    height: 30vw;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+@media all and (width >=900px){
+    div{
+        background-color: green;
+    }
+}
+
+@media all and (width <=900px){
+    div{
+        background-color: blue;
+    }
+}
+
+@media all and (width <=700px){
+    div{
+        background-color: red;
+    }
+}

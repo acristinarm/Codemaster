@@ -1,0 +1,107 @@
+h1, h3{text-align: center;}
+
+div{
+    border: 2px solid black;
+    background-color: lightblue;
+    width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+button{margin: 3px 5px;}
+
+.center{text-align: center;}
+
+#div_1:hover{
+    background-color: hotpink;
+}
+
+#div_2{transition-duration: 2000ms;}
+
+#div_2:hover{
+    background-color: hotpink;
+}
+
+#div_3:active{
+    background-color: hotpink;
+}
+
+#div_4{transition-duration: 2000ms;}
+
+#div_4:active{
+    background-color: hotpink;
+}
+
+#div_5 input:focus{
+    background-color: hotpink;
+}
+
+#div_6 input:focus{
+    background-color: hotpink;
+    transition-duration: 2000ms;
+}
+
+#div_7 a:visited{
+    color: hotpink;
+}
+
+#div_7 a:link{
+    color: white;
+}
+
+#div_8 button:first-child{
+    background-color: hotpink;
+}
+
+#div_9 button:last-child{
+    background-color: hotpink;
+}
+
+#div_10 button:nth-child(3){
+    background-color: hotpink;
+}
+
+#div_11 button:nth-child(odd){
+    background-color: hotpink;
+}
+
+#div_12 button:nth-child(even){
+    background-color: hotpink;
+}
+
+#div_13 button:nth-child(3n){
+    background-color: hotpink;
+}
+
+#div_14:lang(pt){
+    background-color: hotpink;
+}
+
+#div_15:lang(en){
+    background-color: hotpink;
+}
+
+#div_16 input:autofill{
+    border: 2px solid hotpink;
+}
+
+#div_17 input:disabled{
+    border: 2px solid hotpink;
+}
+
+#div_18 input:enabled{
+    border: 2px solid hotpink;
+}
+
+#div_19 input:read-only{
+    border: 2px solid hotpink;
+}
+
+#div_20 input:placeholder-shown{
+    border: 2px solid hotpink;
+}
+
+#div_21 input:checked{
+    outline: 2px solid hotpink;
+}

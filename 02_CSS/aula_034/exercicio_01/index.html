@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 34.1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Exemplos de Inputs + Labels </h1>
+
+        <hr>
+        <br>
+
+        <form>
+            <label for="text_1">Texto: </label>
+            <input type="text" id="text_1">
+
+            <br>
+            <br>
+
+            <label for="text_2">Texto: </label>
+            <input type="text" id="text_2" placeholder="Texto fictício">
+
+            <br>
+            <br>
+
+            <label for="text_3">Texto: </label>
+            <input type="text" id="text_3" value="Texto pré-digitado">
+
+            <br>
+            <br>
+
+            <label for="text_4">Texto: </label>
+            <input type="text" id="text_4" value="Campo desabilitado" disabled>
+
+            <br>
+            <br>
+
+            <label for="text_5">Texto: </label>
+            <input type="text" id="text_5" value="Texto fixo" readonly>
+
+            <br>
+            <br>
+
+            <label for="text_6">Texto: </label>
+            <input type="text" id="text_6" placeholder="3 a 6 caracteres" minlength="3" maxlength="6">
+
+            <br>
+            <br>
+
+            <label for="text_7">Texto: </label>
+            <input type="text" id="text_7" placeholder="Campo obrigatório" required>
+
+            <br>
+            <br>
+
+            <hr>
+
+            <br>
+
+            <label for="number_1">Número 1:</label>
+            <input type="number" id="number_1">
+
+            <br>
+            <br>
+
+            <label for="number_2">Número 2:</label>
+            <input type="number" id="number_2" step="2">
+
+            <br>
+            <br>
+
+            <label for="number_3">Número 3:</label>
+            <input type="number" id="number_3" step="0.01">
+
+            <br>
+            <br>
+
+            <label for="number_4">Número 4:</label>
+            <input type="number" id="number_4" min="1" max="10">
+
+            <br>
+            <br>
+
+            <hr>
+
+            <br>
+
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha">
+
+            <br>
+            <br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email">
+
+            <br>
+            <br>
+
+            <label for="url">Url: </label>
+            <input type="url" id="url">
+
+            <br>
+            <br>
+
+            <label for="telefone">Telefone: </label>
+            <input type="tel" id="telefone" pattern="[0-9]{9}">
+
+            <br>
+            <br>
+
+            <label for="ficheiro">Ficheiro: </label>
+            <input type="file" id="ficheiro">
+
+            <br>
+            <br>
+
+            <hr>
+
+            <br>
+
+            <label for="range_1">Range 1: </label>
+            <input type="range" id="range_1" min="0" max="5">
+
+            <br>
+            <br>
+
+            <label for="range_2">Range 2: </label>
+            <input type="range" id="range_2" min="0" max="5" value="0">
+
+            <br>
+            <br>
+
+            <hr>
+
+            <br>
+
+            <label for="checkbox_1a">Checkbox 1: a) </label>
+            <input type="checkbox" id="checkbox_1a">
+
+            <label for="checkbox_1b">b) </label>
+            <input type="checkbox" id="checkbox_1b">
+
+            <label for="checkbox_1c">c) </label>
+            <input type="checkbox" id="checkbox_1c">
+
+            <br>
+            <br>
+
+            <label for="checkbox_2a">Checkbox 2: a) </label>
+            <input type="checkbox" id="checkbox_2a" checked>
+
+            <label for="checkbox_2b">b) </label>
+            <input type="checkbox" id="checkbox_2b" >
+
+            <label for="checkbox_2c">c) </label>
+            <input type="checkbox" id="checkbox_2c" >
+
+            <br>
+            <br>
+
+            <label for="radio_a">Radio 1: a)</label>
+            <input type="radio" id="radio_a" name="radio">
+
+            <label for="radio_b">b)</label>
+            <input type="radio" id="radio_b" name="radio" checked>
+
+            <label for="radio_c">c)</label>
+            <input type="radio" id="radio_c" name="radio">
+
+            <br>
+            <br>
+
+            <hr>
+
+            <br>
+
+            <label for="color_1">Cor 1: </label>
+            <input type="color" id="color_1" value="#FF0000">
+
+            <br>
+            <br>
+
+            <label for="color_2">Cor 2: </label>
+            <input type="color" id="color_2" value="#000000">
+
+            <br>
+            <br>
+
+            <hr>
+
+            <br>
+
+            <label for="date_1">Data 1: </label>
+            <input type="date" id="date_1">
+
+            <br>
+            <br>
+
+            <label for="date_2">Data 2: </label>
+            <input type="date" id="date_2" value="2024-10-31">
+
+            <br>
+            <br>
+
+            <label for="date_3">Data 3: </label>
+            <input type="date" id="date_3" min="2024-10-01" max="2024-10-31">
+
+            <br>
+            <br>
+
+            <label for="date_4">Data 4: </label>
+            <input type="date" id="date_4" step="2">
+
+            <br>
+            <br>
+
+            <hr>
+
+            <br>
+
+            <label for="mes_1">Mês: 1</label>
+            <input type="month" id="mes_1">
+
+            <br>
+            <br>
+
+            <label for="mes_2">Mês: 2</label>
+            <input type="month" id="mes_2" value="2005-06">
+
+            <br>
+            <br>
+
+            <label for="mes_3">Mês: 3</label>
+            <input type="month" id="mes_3" min="2024-07" max="2024-12">
+
+            <br>
+            <br>
+
+            <label for="mes_4">Mês: 4</label>
+            <input type="month" id="mes_4" step="2">
+
+            <br>
+            <br>
+
+            <hr>
+
+            <br>
+
+            <label for="time_1">Hora 1: </label>
+            <input type="time" id="time_1">
+
+            <br>
+            <br>
+
+            <label for="time_2">Hora 2: </label>
+            <input type="time" id="time_2" value="21:05">
+
+            <br>
+            <br>
+
+            <label for="time_3">Hora 3: </label>
+            <input type="time" id="time_3" min="20:00" max="21:00">
+
+            <br>
+            <br>
+
+            <label for="time_4">Hora 4: </label>
+            <input type="time" id="time_4" step="1">
+
+            <br>
+            <br>
+
+            <label for="time_5">Hora 5: </label>
+            <input type="time" id="time_5" step="300">
+
+            <br>
+            <br>
+
+            <label for="time_6">Hora 6: </label>
+            <input type="time" id="time_6" step="3600">
+
+            <br>
+            <br>
+
+            <hr>
+
+            <br>
+
+            <label for="date_hour_1">Data e hora 1: </label>
+            <input type="datetime-local" id="date_hour_1">
+
+            <br>
+            <br>
+
+            <label for="date_hour_2">Data e hora 2: </label>
+            <input type="datetime-local" id="date_hour_2" step="1">
+
+            <br>
+            <br>
+
+            <label for="date_hour_3">Data e hora 3: </label>
+            <input type="datetime-local" id="date_hour_3" value="2024-10-31 14:35:05">
+
+            <hr>
+
+            <br>
+
+            <input type="submit">
+            <input type="reset">
+
+        </form>
+        
+        
+    </body>
+
+</html>

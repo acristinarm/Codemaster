@@ -1,0 +1,80 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+body > div{
+    border: 3px solid black;
+    background-color: lightgreen;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+}
+
+.filhos{
+    border: 1px solid black;
+    background-color: coral;
+}
+
+#pai_2{
+    grid-template-columns: auto auto auto;
+}
+
+#pai_3{
+    grid-template-columns: auto auto 50%;
+}
+
+#pai_4{
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#pai_4 > #filha_1{
+    grid-column-start: 2;
+}
+
+#pai_9{
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#pai_9 > #filha_5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#pai_5{
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#pai_5 > #filha_2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#pai_6{
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#pai_6 > #filha_3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#pai_7{
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+#pai_8{
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+}
+
+#pai_8 > #filha_4{
+    grid-column-start: 3;
+    grid-row-start: 3;
+}

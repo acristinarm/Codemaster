@@ -1,0 +1,86 @@
+body{
+    background-color:aquamarine;
+    margin: 0px;
+}
+
+.sol{
+    width: 155px;
+}
+
+.nuvem_1{
+    width: 80px;
+    margin-right: 200px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.nuvem_2{
+    width: 80px;
+    margin-right: 300px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.nuvem_3{
+    width: 80px;
+    margin-right: 200px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.nuvem_4{
+    width: 80px;
+    margin-right: 400px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.arvore_pequena{
+    width: 95px; 
+    margin-bottom: 0px;
+    margin-right: 6px;
+}
+
+.arvore_muito_pequena{
+    width: 88px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+}
+
+.arvore_media{
+    width: 170px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+}
+
+.arvore_media2{
+    width: 190px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+}
+
+.arvore_grande{
+    width: 198px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+}
+
+.arvores{
+    margin-bottom: 0px;
+}
+
+.terra{
+    background-color: rgb(97, 53, 9);
+    margin-top: -15px;
+    height: 79px;
+}
+
+p{
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-top: 42px;
+    font-size: 11px;
+}
+

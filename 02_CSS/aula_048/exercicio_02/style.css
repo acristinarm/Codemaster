@@ -1,0 +1,38 @@
+h1, h3{
+    text-align: center;
+}
+
+div{
+    width: 400px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: lightgreen;
+}
+
+#div_1::selection{
+    color: red;
+    background-color: yellow;
+}
+
+#div_2 li::marker{
+    color: red;
+}
+
+#div_3::first-letter{
+    color: red;
+    background-color: yellow;
+}
+
+#div_4::first-line{
+    color: red;
+    background-color: yellow;
+}
+
+#div_5 label::before{
+    content:url("spongebob.jpg")
+}
+
+#div_6 label::after{
+    content: ")";
+}

@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aqua{
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+.green{
+    background-color: greenyellow;
+    margin: 75px;
+}
+
+span{
+    background-color: violet;
+    padding: 30px 20px 0px 60px;
+}

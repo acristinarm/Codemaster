@@ -1,0 +1,47 @@
+body{text-align: center;}
+
+div{
+    padding: 15px 0px;
+    margin: 20px auto;
+    border-radius: 40px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#div_1{
+    background-color: green;
+}
+
+#div_2{
+    background-color: blue;
+}
+
+#div_3{
+    background-color: red;
+}
+
+#div_4{
+    background-color: green;
+}
+
+@media all and (width >750px){
+    #div_3{
+        display: none;
+    }
+
+    #div_4{
+        display: none;
+    }
+}
+
+@media all and (width <750px){
+    #div_1{
+        display: none;
+    }
+
+    #div_2{
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.amarelo{
+    border: 5px dotted red;
+    background-color: yellow;
+    color: blue;
+    font-size: 10px;
+}
+
+.vermelho{
+    border: 5px dotted yellow;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+#especial{
+    border: 5px solid greenyellow;
+    border-radius: 20px 0px;
+    background-color: blue;
+    color: violet;
+    font-size: 20px;
+}
+

@@ -1,0 +1,21 @@
+body{
+    background-image: url("/02_CSS/aula_023/exercicio_01/porto_01.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+p{
+    border: 10px groove yellow;
+    background-color: red;
+}

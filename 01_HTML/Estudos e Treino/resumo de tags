@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <!--é importante especificar o idioma utilizado em html-->
+
+    <!---esta tag serve para eu fazer comentários e me conseguir organizar-->
+
+    <head>
+        <meta charset="UTF-8">
+
+        <!--
+            a tag meta com charset serve para configurar os caracteres usados
+            no site e também não tem fechamento
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Aqui insiro o título que vai aparecer na parte da barra web</title>
+
+        <!--
+        Também posso usar esta tag para inutilizar outra tag, por exemplo: se colocar
+         o title dentro de uma tag de comentário, este fica inutilizado
+        -->
+    </head>
+
+    <body>
+        <h1>
+            Tag de parágrafos, vai desde o h1 até ao h6, 
+            diminuido o tamanho à medida que o número aumenta
+        </h1>
+
+        <p>Tag de parágrafos</p>
+
+        <br> Esta tag não tem fechamento e é como um parágrafo, 
+        mas não dá tanto esppaço entre as linhas
+
+        <hr> Igual a br, mas deixa uma linha desenhada
+
+        <!-- 
+            ao escrever lorem__ com um número junto, vou gerar um texto aleatório com
+            um número de palavras correspondentes ao nº que coloquei a seguir ao lorem
+        -->
+
+        <b> esta tag coloca palavras em negrito "bold"</b>
+
+        <i>esta tag coloca palavras em itálico</i>
+
+        <u>esta tag coloca palavras sublinhadas "underlined"</u>
+
+        <small>esta tag coloca as palavras mais pequenas</smal>
+
+        <sub>esta tag põe palavras subscritas</sub>
+
+        <sup>esta tag põe palavras sobrescritas</sup>
+
+        <del>esta tag coloca a palavrab com um risco por cima</del>
+
+        <mark>
+            esta tag deixa a palavra com um sombreado, 
+            como se estivesse com um marcador por cima
+        </mark>
+
+        <bdo dir="rtl">
+            esta tag faz com que a palavra fique de trás para a frente,
+            "right to left"
+        </bdo>
+
+        <!--
+            coloco a palavra(s) que desejo com uma formatação diferente
+            entre a tag específica
+        -->
+
+        <!--Para melhor entender as tags ver aula_005: exercício_02-->
+
+        <pre>
+tudo o que fizer dentro desta tag tem impacto no que se vê 
+na web e é importante que o conteúdo dentro desta tag fique sem identação, 
+ou seja, encostado à linha do DOCTYPE e html. ver exemplo na aula_006:exercício_01
+        </pre>
+
+        Uso a tag <code></code> quando estou a descrever uma tag,
+        dar exemplos de programação na própria programação, por exemplo, se quiser 
+        escrever o símbolo de maior ou igual sem utilizar os símbolos e ativar algo, 
+        uso símbolos especiais dentro da tag code
+
+        Uso a tag <img src=> para colocar uma imagem. Posso colocar imagens que tenho
+        numa pasta, ou o link da imagem se a for buscar à web
+        Como as imagens podem não carregar bem, uso a tag "alt=" dentro da tag "img src"
+        <!--ver aula_007:exercício_01-->
+        Uso "widht=" para mexer no comprimento da imagem
+        Uso "height=" para mexer na altura da imagem 
+
+        "title=" é um atributo que posso por dentro de uma tag e quando passo o rato 
+        por cima da imagem, irá aparecer o que lá tiver escrito
+        Fica sempre dentro da tag de abertura de um elemento
+
+        <link rel="icon" href="nome de como tenho a imagem na pasta.jpg" type="image/jpg">
+        com esta tag consigo mudar o icon que aparece juntamente com o title na parte de cima da 
+        página web
+
+        A tag/elemento <a></a> serve para linkar uma página a outra e vem junta com um atríbuto,
+        como: download, href, target... 
+        <!--Exemplo de como utilizar a tag <a> com o atributo target-->
+        <a href="https://www.youtube.com/watch?v=eQSvXDkfaBg&ab_channel=FelipeNeto" target="_blank">YouTube Felipe FelipeNeto</a>
+        O atributo target com o valor "blank" significa que a o link será aberto num separador diferente.
+
+        <meta name="viewport" content="width=device-width initial-scale=1"/>
+
+        Para criar uma lista, basta abrir a tag <ol></ol> e dentro dela uso a tag <li></li> para cada linha dessa lista.
+        À tag <ol></ol> posso ainda adicionar o atributo "type=" para dizer que tipo de numeração pretendo, o atributo "start-"
+        para indicar em que item irá começar a lista e o atributo "reversed"
+        
+        Para uma lista não ordenada uso a tag <ul></ul> e dentro dela uso a tag <li></li> para cada linha dessa lista.
+        À tag <ul></ul> posso ainda adicionar o atributo style para mudar o ícon que aparece.
+        Style="list-style-type: xxx ;"
+
+        Para uma lista de definições uso a tag <dl></dl> e dentro dela uso a tag <dt></dt> e dentro desta a taga <dd></dd>
+        Uso "dt" como um titulo daquilo que vou definir e "dd" para o texto da definição.  
+        Lista de definições:
+        <dl> -> Definition List 
+        <dt> -> Definition Title 
+        <dd> -> Definition Description
+
+        Se quiser colocar um texto ou imagem a mexer, uso a tag <marquee></marquee> e a esta junto o atributo
+        behavior="scroll/ alternate/ slide" para controlar o modo como se vai mexer.
+        Depois posso ainda utilizar o atributo direction para dizer em que sentido se vai mexer e o atributo
+        scrollamount para modificar a velocidade a que se desloca.
+
+        <!Atributo Style: e.g. <p style="propriedade: valor;"> </p>
+        Propriedade: color; background-color; text-align; border
+        Valor: a seguir ao ":" terminar com ";"
+
+        Para criar uma tabela, uso a tag <table></table>, onde, dentro dela coloco a tag
+        <tr></tr> para a primeira linha e dentro de "tr" coloco <td></td> para criar as colunas
+        da tabela.
+        Para a minha tabela ter bordas tenho de usar a tag style="border:"
+        Ideal é, depois do uso normal da tag style na tag table, usar border-collapse: border-collapse
+        Como a primeira linha normalmente é o título das categorias, o idela seria usar a tag
+        <th></th> em cada coluna dessa primeira linha, juntamente com o border
+
+        Para colocar uma legendas a tabela posso usar a tag <caption></caption> quando abro a tabela.
+        Se quiser que fique no topo não preciso de fazer nada, para ficar em baixo, junto a caption o 
+        atributo "style= caption-side: bottom"
+
+        Para mudar o tamanho da letra, ao atributo "style" acrescento "font-size: xxpx"
+
+        Uso a tag style (no head) quando pretendo colocar uma caracteristica que vai estar presente em 
+        vários elementos do <body>
+            
+        Para colocar um aúdio, uso a tag <audio src="" controls preload=""></audio>
+        Com o atributo "autoplay" o audio começa a tocar automaticamente e com o atributo
+        "loop", quando chegar ao fim, começa de novo.
+        <!--Ver aula 19, exercício 1 para entender melhor e ver a questão do tempo-->
+
+        Para incluir vídeos no meu site, posso:
+        -por diretamente do YouTube, através da opção incorporar
+        -por um ficheiro de uma pasta minha, através da tag <video src="" controls></video>
+        <!--Ver aula 19, exercício 2 para entender melhor e ver a questão do tempo-->
+
+        Aplico a tag <picture></picture> quando tenho de colocar uma imagem para substituir outra que possa
+        ser grande demais para o aparelho em que vai ser reproduzida
+        Dentro desta tag coloco a tag <img src=""> com a imagem normal (a grande demais) e a tag
+        <source srcset=""> com as imagens substitutas
+        Aqui é importante delimitar os limites das imagens e colocar o width
+        <!--Ver aula 19, exercício 3 para entender melhor e ver a questão do delimitar-->
+
+        Para conseguir usar um comentário dentro da tag style, tenho de colocar /**/
+
+        text-indent permite-me dar aquele espaço antes do texto começar
+
+        Para meter uma imagem como plano de fundo de toda a página, uso, dentro da tag <style></style>
+        a propriedade background-image: url("nome de como a imagem ficou guarada")
+        esta propriedade tem várias caracteristicas e por isso posso ainda colocar: background-repeat, background-position
+        e background-size e neste uso o "contain" se quiser que a imagem fique perfeitamente dentro das bordas
+        (no sentido vertical), ou o "cover" se quiser que cubra todos os cantos do parágrafo
+        <!--Ver aula 21 para entender todas estas características-->
+
+        Se no background-color quiser colocar alguma transparência:
+        -usar o rgb e aí coloco rgba, sendo que ficaria (255, 0, 0, 50%), se quisesse 50% de transparência
+        Uso opacity se quiser que tudo (inclusive imagens, não só a cor) o que estiver no parágrafo,
+        fique com transparência
+
+        Para usar as classes em css, começo por escrever classe="exemplo_1" no ficheiro html e depois no ficheiro
+        css escrevo .exemplo_1 para poder fazer a ligação e começar a por todas as carcaterísticas que quero atribuir
+
+        Se me estiver a referir a id's, uso #exemplo_1
+
+        Uso a tag <div></div> quando quiser agrupar elementos que pertençam a um único divisor HTML, sendo que por norma há
+        3 grandes divisões no HTML: cabeçalho, corpo, rodapé
+        Agora o h1, p, e etc têm de ficar dentro da div e ter uma identação a mais que esta, são "filhos" dela
+        Se uma div for colocada no meio de um lorem, esta gera uma quebra de linha.
+
+        Se usarmos a tag <span></span> no meio de um lorem, este nãpo vai dar a tal quebra de linha e assim conseguimos dar atributos
+        diferentes às palavras sem as tirar do parágrafo.
+
+        Se quiser, internamente, espaçar o conteúdo do parágrafo das suas bordas, posso usar a tag
+        <padding></padding>
+        Se escrever só uma informação numérica, vai ser aplicada aos 4 lados do texto, se escrever 2 informações numéricas, 
+        a primeira vai para o topo e base e a segunda vai para a esquerda e a direita.
+        Já se usar 4 valores, vai assumir a partir do topo esquerdo e seguir pela rotação dos ponteiros do relógio.
+        Tenho sempre a possibilidade de usar padding-top/ padding-bottom...
+
+        A tag <margin></margin> é muito semelhante ao padding, mas o espaçamento vai ser externo e não interno, de resto, o comportamento
+        é muito semelhante.
+        Se quiser que fique ajustado ao centro do ecrã, basta colocar margin: auto
+        O margin também pode assumir números negativos e vai fazer com que se sobreponha a outro elemento
+
+        <!--Ver aula 32 para saber mais sobre unidades de medida.-->
+
+        O input é algum tipo de forma que o usuário pode usar para digitar alguma coisa, pode interagir
+        A tag <input type="text"> é uma tag sem fechamento e logo de início aparece o atributo type. Outro atributo é "placeholder",
+        que vai fazer com que dentro da caixa fique um texto que desapareça quando o usuário começa a escrever.
+        Os inputs geralmente são associados (precedidos) a 2 tags: <label for=""></label> e (principalmente para PHP) <form action=""></form>
+        Não faz sentido ter um label e um placeholder ao mesmo tempo
+        Se quiser que já tenha algo escrito, uso o atributo value="---" na tag input
+        É bom que tudo esteja dentro do formulario, para posteriormente ser possível guardar os dados
+        Se por algum motivo quiser desabilitar um input, coloco na tag <input type="text"> o atributo disabled ou readonly
+        Para por um limite (máximo ou minimo) ao meu input, uso os atributos "minlenght" e/ou "maxlenght".
+        Para colocar campos de preenchimento obrigatório, uso o atributo required.
+
+        Para um input que seja para submeter alguma coisa, acrescento outra vez a tag <input type="text">, mas no lugar do "text" que vem com o
+        type, coloco "submit". O mesmo acontece se quiser que seja um input de números, coloco "number" no lugar de text.
+        Neste último caso, se quiser mudar os "passos" que são dados de um número para o outro, uso o atributo "step", se não quiser especificar, coloco
+        "any" no step.
+        No input numérico, se quiser por limites, basta usar os atributos "min" e/ou "max".
+
+        Para colocar um campo oculto, como uma senha, uso um input "password", ou seja, no type coloco a palavra "password".
+
+        Para o input com email, coloco "email" no type do input.
+
+        Para o input com link, coloco "url" no type do input.
+
+        Para o input com nº telefone, coloco "tel" no type do input e ainda posso acresentar o atributo "pattern" para dizer quantos números pode ter e de
+        quanto a quanto podem variar esses números.
+        [de quanto a quanto varia] {nº de números permitidos}
+
+        Para o input com algum ficheiro, coloco "file" no type do input.
+
+        Para o input com uma espécie de slide para selecionar o valor, coloco "range" no type do input e adiciono os atributos "min" e "max" para definir os limites.
+        Se quiser que a barra comece, não na metade e sim noutro lugar, coloco o atributo "value" com o valor que desejo. Aqui também posso usar o step para mudar os
+        "passos" entre os números.
+
+        Para o input com uma caixa em que posso marcar e desmarcar, coloco "checkbox" no type do input. Se quiser que o checkbox já venha previamente selecionado, 
+        basta colocar o atributo checked. A este também posso acrescentar o atributo disabled já falado anteriormente.
+
+        Se tiver mais do que um checkbox quisrer que seja possível apenas selecionar 1, uso o type "radio". Adicono o atributo name para relacionar varios rádios a uma só 
+        pergunta.
+
+        Para o input com cor (perguntar cor), coloco "color" no type do input. Para por um value neste input, tenho de ter atenção, pois só aceita hexadecimal, #ffff00
+        
+        Para o input com data, coloco "date" no type do input. Para restringir os limites coloco os atributos "min" e "max", estes têm de vir no formato 
+        ano-mês-dia
+
+        Para o input com um mês e ano especifico, coloco "month" no type do input.
+
+        Para o input com tempo, coloco "time" no type do input. Aqui o step é em segundos.
+
+        Para o input com data e tempo, coloco "datetime-local" no type do input.
+        No value, a formatação deve ser a mistura do date com o time, ou seja: "ano-mês-dia hora:minutos:segundos"
+
+        Para o input com reset, coloco "reset" no type do input.
+        <!--Ver aula 34 para entender melhor-->
+
+
+        Se eu quiser que o usuário possa escrever mais conteúdo, a seguir ao label, coloco a tag textarea.
+        Adiciono os atributos "cols" (colunas) e/ou "rows" (linhas) para indicar o tamanho da caixa que vou criar.
+        Para controlar a quantidade de carcateres, uso minlenght e maxlenght .
+
+        Para impedir que o usuário modifique o tamanho do textarea, no css, uso a propriedade resize: none (para travar vertical e horizontalmente), 
+        both (para permitir vertical e horizontalmente), vertical (apenas permito o eixo vertical e travo o horizontal), horizontal
+        (apenas permito o eixo horizontal e travo o vertical).
+
+        Para colocar um texto não fictício, coloco entre a tag de abertura e a de fechamento
+
+        O textarea também pode ter o atributo required
+        <!--Ver aula 35 para entender melhor-->
+
+
+        A tag <Select></Select> também é antecedida por um label e dentro dela coloco a tag <option value=""></option>
+        Entre a tag de abertura e fechamento do option coloco a opção disponível. Faço vários option's para várias opções.
+        Se alguma das opções ficar indisponivel, uso o atributo disabled.
+        Se quiser que alguma venha pré-selecionada uso o atributo selected.
+        Se quiser colocar grupo dentro de grupo, uso a tag <optgroup></optgroup> dentro da tag <select name="" id=""></select>
+        <!--Ver aula 36 para entender melhor-->
+
+
+        Para colocar um botão, uso a tag <button></button>
+
+        Se quiser também posso usar, no css, o atributo cursor e assim mudo a estética do "rato"
+
+        Para fazer com que um texto não sai da sua "caixa" e dentro dessa caixa haja um scroll interno, uso, no css,
+        "overflow"
+        <!--Ver aula 37-->
+
+        Para remover a linha que aparece por baixo dos links, uso, no css, "text-decoration:none"
+        Se quiser que fique com linha, uso "underline" e este por sua vez, pod eter aparências diferentes, como por exemplo:
+        "text-decoration: underline solid (dotted; double; dashed; wavy) red 2px;"
+
+        Para além disso, se quiser que a linha fique em cima, uso, "overline"; para ficar no meio da palavra uso "line-through"
+        <!--Ver aula 38-->
+
+        Para, no plano de fundo, conseguir fazer uma mistura de cores, uso background no css e associado a este background vou colocar
+        linear-gradient (direção das cores , cores que desejo ).
+        Um objeto pode ter mais do que um linear-gradient, mas para isso tenho de trabalhar com rgba, ou seja, a transparência.
+        Transparência essa que fica na linha anterior à última de linear-gradient.
+        Importante se quiser fazer uma mistura de muitas cores, manter esta estrutura: 
+        "background: 
+        linear-gradient(to bottom right, rgba(255, 0, 0, 10%), rgba(163, 16, 40, 30%), rgba(255, 255, 255, 30%)),
+        linear-gradient(to bottom left, rgb(128, 0, 128), rgb(255, 192, 203), rgb(0, 128, 0));"
+        COM MUITA ATENÇÃO AOS ESPAÇOS E VIRGULAS
+        <!--Ver aula 39-->
+
+        Para misturar as cores em formato de circulo, uso: radial-gradient(circle at bottom right/ bottom left..., cores)
+        Posso usar também a percentagem (circle at 50%(eixo horizontal) 50%(eixo vertical))
+        Também posso usar a opçção closest/farthest- "side/ corner"
+
+        Outra opção que também existe é o conic-gradient
+        <!--Ver aula 40 para ver melhor todas as possibilidades-->
+
+        Para criar sombras, uso, no css, "box-shadow".
+        Neste box-shadow: 0px(eixo horizontal) 10px(eixo vertical) 40px("blur da sombra") 40px(tamanho da sombra) cor da sombra;
+        Se quiser que a sombra fique por dentro, uso "inset" antes dos outros atributos.
+
+        Se quiser adicionar sombra a um texto uso text-shadow, mas neste não tem a possibilidade do tamanho da sombra
+        Aqui também não existe o inset.
+        <!--Ver aula 41-->
+
+        Existe um tipo de div, "filedset", que já vem com um padding, e é associado a uma tag "legend" que me permite dar outro aspeto
+        a uma div tradicional.
+
+        Para além dos seletores id's e classes, existe uma maneira mais direta/simples de especificar quando tenho vários elementos. Essa forma é
+        através de uma interação "pai/filho"
+        ex: .pai > div{}
+
+        Se esse filho tiver outro filho faço assim:
+        ex: .pai > div > div{}
+
+        Se quiser afetar todos os "filhos", faço o seguinte:
+        ex: .pai div{}
+        Aquele espeço em branco especifica que está a englobar tudo dentro da div com class "pai"
+
+        Para além disso, se quiser que se aplique a mesma característica a todos os filhos do pai, uso o 
+        seguinte:
+        ex: .pai *{}
+
+        (.pai > *, significa que vai afetar todos os filhos grau 1
+        .pai > * > *, significa que vai afetar todos os filhos grau 2)
+        <!--Ver aula 42-->
+
+        
+        Enquanto que as classes denominamos por .nome_da_class, as pseudo-classes vão ser denominadas por 
+        ":" dois pontos.
+        Um exemplo é o :hover, que permite mudar a estética de um elemento quando o rato passa por cima
+
+        Se quiser que essa mudança seja mais subtil, utilizo "transition-duration" no elemento pai daquele em causa
+
+        O :active permite mudar a estética de um elemento quando o rato fica pressionado em cima do elemento
+
+        Com :focus, a mudança ocorre onde o cursos do rato estiver, não num só elemento fixo
+
+        Se quiser, dentro de uma class/id espeficar algum elemenot, posso usar, por exemplo:
+        p:first-child; last-child; nth-child(nº elemento/ even/ odd/ nº * n)
+
+        :lang() permite mudar a estética com base na lingua daquele elemento específico
+
+        input:autofill/ disabled/ enabled/ read-only/ required/ checked/ placeholder-shown
+        <!--Ver aula 43-->
+
+        Para colocar filtros nas imagens, uso, no css, "filter: grayscale (x%)"; "filter: brightness (x%)";
+        "filter: contrast(x%)"; "filter: blur(x%)"; "filter: invert(x%)"; "filter: saturate(x%)";
+        "filter: sepia(x%)"; "filter: drop-shadow(xpx xpx xpx rgba)".
+
+        Se quiser posso meter vários filtros num só elemento, ex:
+        "filter: brightness(x%) sepia(x%) blur(x%);"
+
+        Se quiser que o filtro afete apenas o plano de fundo de um elemento utilizo backdrop-filter: qualquer filtro
+        <!--Ver aula 45-->
+
+        Interação entre irmãos (~).
+        É importante que esta ligação venha desde o pai. Eu posso fazer com que algo que aconteça no filho 1,
+        se espelhe que no filho 5:
+
+        "#pai_1 > .filho_1:hover ~ .filho_5"
+
+        Um filho mais novo, nunca vai afetar "mandar" num mais velho, ou seja, o filho_5 não afeta o filho_1
+        <!--Ver aula 46-->
+
+        Font-face
+        Existem ficheiros que posso baixar para ter diferentes fontes, sendo o mais usado o "Google Fonts".
+        No Google Fonts: escolho a fonte; escolho "get embed code"; escolho o com o @import; copio sem a tag style;
+        coloco no css na 1ª linha; no elemento em que quiser uma fonte diferente coloco "font-family: "nome da fonte nova"";
+        
+        Outra hipótese é meter o link diretamente no head html, antes do css.
+
+        O 3º método, com o site "dafont", exige cuidado com os direitos autorais.
+        Devemos: selecionar a fonte desejada (de preferência uma 100% grátis); fazer o download;
+        descompactar o ficheiro zip; de preferência usar a versão ttf; arrastar para dentro do exercício (como 
+        numa imagem); no css colocar @font-face no início; abrir chaveta neste font-face e colocar "src: url("nome do ficheiro")";
+        em seguida no font-family posso colocar qualquer coisa, como "teste" por exemplo
+
+        Por último, há um outro método que é um aperfeiçoamento deste 3º, porque pode dar problemas devido a extensões (ttf por exemplo).
+        A solução é uma plataforma em que fornecemos um aúnica extensão e este torna o nosso ficheiro compatível 
+        com todas as versões.
+
+        Neste método, fazemos o seguinte: fazemos o download do ficheiro no google fonts; descompactamos(podemos apenas usar o ttf); no site 
+        transfonter selecionamos "add fonts" ;selecionamos todos os formatos e carregamos em converter; descompactamos o ficheiro; selecionamos 
+        tudo e arrastamos para o projeto; este vai criar um ficheiro de css e por isso é imporatnte no html criar um link de ligação com esse novo ficheiro.
+        Assim tenho certeza que irá funcionar em todos os dispositivos
+        <!--Matéria dada na aula 47-->
+
+        Suponhamos que quero que a "div_1" tenha uma expessura das letras mais fina que o habitual, para isso existe a propriedade
+        "font-weight".
+        Esta propriedade não tem unidades de medida. Nem todos os font-family permitem trabalhar com esta propriedade.
+        Se não quiser colocar os números, posso colocar as palavras: "thiner; normal; bolder".
+
+        Para além disto, também há como colocar todo um elemento em itálico:
+        "font-style: italic; oblique". 
+
+        Se colocar a propriedade "text-transform: none" transmite tal e qual como está no html; "text-transform: upercase" coloca tudo em maiúsculas;
+        "text-transform: lowercase" coloca tudo em minuscula.
+
+
+        Além das pseudo-classes, existem pseudo-elementos.
+        Para alterar a estética destes, uso "::"
+        Por exemplo, se quiser que tudo o que seleciono com o rato mude, uso "#pai_1::selection"
+        Para listas faço: "#pai_2 > ul/ol > li::marker"
+
+        Existe um pseudo elemento só para trabalhar a 1ª letra: "#pai_3::first-letter"
+        Para 1ª linha uso "#pai_4::first-line"
+
+
+        Se quiser meter algum símbolo/palavra antes de algum input "#pai_5 input::before{content: "x"}"
+
+        Se quiser meter algum símbolo/palavra depois de algum input "#pai_6 input::after{content: "x"}"
+        <!--Matéria dada na aula 48-->
+
+        Box-sizing:
+        Quando definimos um width de um elemento, na verdade a div não terá esse tamanho, mas sim a soma desse 
+        widht + padding + border. O mesmo acontece com o height.
+
+        Para isto não acontecer utilizo "Box-sizing: content-box; border-box"
+        Com o border-box já conta o valor do padding e border, tendo assim o verdadeiro valor que digitei
+        No content-box apenas o conteudo é que obedece ao tamanho que solicitei.
+        Ver também outline.
+
+        Para conseguir colocar em todos os elementos de uma só vez uso: "*{box-sizing: border-box}"
+
+        
+        Transform:
+        Com esta propriedade (que vai ser importante para animações) consigo mexer nas imagens/elementos.
+        "transform: rotate(45deg/-45deg/ 0.45turn);"
+
+        Posso fazer com que só o conteúdo do ele se mova: "#div_1 p{transform: rotate(45deg)}", no entanto, 
+        ao rodar o conteúdo, este vai sair fora do elemento, para isso utilizo "translate".
+        "transform: translate (eixo horizontal, eixo vertical - valores em px)"
+
+        Se usar "transform: scale(x%)" consigo mexer no tamanho sem desiquilibrar a proporção do elemento. 
+        Existe também "transform: skew (xdeg, xdeg)"
+
+        Para usar vários basta dar um espaço em branco entre eles.
+        <!--Ver aula 49-->
+
+
+        Display:
+
+        Há vários tipos de display, mas aqui vou falar dos 6 mais importantes:
+
+        1º- "block". Esta propriedade coloca tudo em bloco (uns abaixo dos outros), dando br automático.
+        
+        2º- "inline". O "inverso" do bloco e coloca tudo em linha.
+
+        No display "block", pelo facto de ser bloco, posso redimencioná-lo, já no "inline" não vai funcionar muito bem, pois este 
+        é ajustado ao tamanho do conteúdo.
+        Como ponto positivo do "inline" temos o compartilhamento de linha
+
+        3º- "inline-block". Este meio que mistura o melhor do block e do inline, pois é um bloco que permite que haja outros na mesma linha, ao seu
+        lado.
+
+        4º- "none". Este display faz com que um elemento não exista no código.
+        
+        5º(importante)- "grid". 
+        Grid-template-columns: auto auto auto; :Gera 3 colunas com o conteúdo. Se quiser que uma das colunas fique maior que a outra, 
+        posso utilizar também percentagem, por exemplo: auto 70% auto.
+        O nº de linhas é determinado pelo nº de elementos.
+        Posso fazer a grade e não preencher todos os elementos, por exemplo, com um display: none.
+
+        Ao utilizar "grid-column-start e grid-column-end" consigo controlar onde ele começa e acaba em termos de largura; o mesmo acontece com 
+        as linhas "grid-row-start e grid-row-end".
+        Desta maneira (com linhas e colunas) também posso movimentar o elemento dentro da div. 
+        
+        Se quiser dar um espaçamento entre as colunas e linhas posso usar a propriedade "gap". Este gap tem de ser dado no pai.
+        
+        <!--Ver aula 50-->
+
+        6º(importante)- "flex".
+        Todos os elementos ficam alinhados no eixo horizontal.
+        Posso orientar a direção do flex: "flex-direction: row/ column/ row-reverse/ column reverse" 
+        Com "flex-wrap: wrap" dá uma quebra de linha/coluna quando necessário, para isso é necessário especificar que tipo 
+        de flex se trata: row or column.
+
+        Posso também juntar wrap e reverse: "flex-direction: row; flex-wrap: wrap-reverse;".
+        Nesta propriedade também posso usar o gap
+
+        No flex também tenho a possibilidade de de alinhas oa elementos onde quiser: "justify-contente: flex-start/ center/ flex-end/ space between/
+        space-evenly/ space-around"
+        O justify-content é responsável por organizar os espaços que sofram no eixo principal do display.
+
+
+        A propriedade que é responsável por organizar os espaços no eixo secundário é "align-items: stretch/ flex-start/ flex-end/ center". 
+
+        O "align-items" não funciona muito bem quando o flex-wrap está ativo. Quando isto acontece utilizamos "align-content". 
+        
+        Para além de tudo isto, podemos ainda definir a ordem dos elementos, todos ou somente 1. 
+        Para somente 1, posso utilizar "#pai_1 div:nth-child(9){order: -1}" com este "order" consigo colocar o que seria o último item, em primiero lugar
+
+        Se quiser que algum elemento especifico tenha a habilidade de crescer, utilizo "flex-grow", isto permite que esse elemento cresça se sobrar espaço, o 
+        contrário também é possível com o "flex-shrink", mas para este funcionar o "flex-wrap: nowrap" tem de estar ativo 
+        É muito importante que nestas propriedades (grow e shrink) o tamanho esteja em %
+
+        "flex-basis: auto/ content/ x px" define o tamanho do elemento enquanto houver espaço a sobrar. 
+
+        Se quiser que somente um elemento fique numa posição diferente posso usar "align-self"
+        <!--Ver aula 51 e 52-->
+
+        Position: 
+
+        Por defeito vem o "static", se quiser alterar a posição em si, tenho de começar por retitar o static e selecionar outro tipo de
+        Position.
+
+        "relative"- neste tenho de especificar o top (xpx) e o right (x px)..., só move a si mesmo relativo à posição atual
+        Se quiser sobrepor os elementos tenho de por position relative em todos os elementos, de seguida tenho de indicar qual a camada em que cada 
+        "filho" vai estar: "z-index: 1/ 2/ ..."
+
+        "fixed"- independentemente do quanto movimentar a página, o elemento permanece no sítio
+
+        "absolute"-tem o mesmo comportamento do fixo, mas obedece ao scroll
+
+        "sticky"- mexe até ficar preso em algum ponto. Se quiser que ele percorra a página interia, tem de estar diretamente no body 
+        <!--Ver aula 54-->
+
+        Animações:
+
+        Antes de qualquer coisa é muito importante que o position:relative esteja ativo para funcionar
+
+        @keyframes "nome_do_elemento"{
+            from{left: 0px;} -estado inicial da animação
+
+            to{ left: 100px;} -estado final da animação
+        }
+
+        Se quiser fazer várias etapas, em vez do "from/to" uso %, por exemplo: 0% 25% 50% 75% 100%, em que em cada etapa posso
+        especificar o que acontece
+
+        Para funcionar tenho de explicitar (na div correspondente) o "animation name ("nome_do_elemento")" e "animation-duration"
+        Com o "animation-fill-mode: forwards" consigo que o elemento fique onde terminou
+        Com o "animation-iteration-count: 1/2/5/infinite" consigo que o elemento repita as vezes que quiser
+        Com o "animation-direction: alternate" consigo que o elemento fique a "dançar" de um lado para o outro
+        Com o "animation-time-function: ease/ linear" consigo controlar a velocidade do elemento
+        Com o "animation-delay" consigo atrasar o início da animação
+
+        Se quiser que faça mais que um movimento ao mesmo tempo, faço o seguinte:
+        "animation: nome_do_elemento duration time-function direction iteration-count fill-mode",
+        "outra animação"
+        <!--Ver aula 55-->
+
+        Responsividade:
+
+        @media consigo fazer com que uma página tenha um comportamente num ecrã de computador e num ecrã de telemóvel, nunca desformatando. 
+        Para isto acontecer tenho de fazer o seguinte:
+
+        @media all and (width <= tamanho a partir do qual surge a alteração px){
+            alterações desejadas
+        }
+
+        "all/ print/ screen"- para que dispositivos quero a regra?
+
+        Se não quiser que herde as informações do anterior, basta estabelecer as "balizas" minimas e maximas do widht
+
+        Posso fazer mais que um @media
+        <!--Ver aula 57-->
+
+        Se quiser fazer um formato para uma versão desktop e outro para mobile, o display none com display block será uma boa opção 
+
+        Em vez de div's posso usar a tag "header" "main" "footer", que na verdades são div's
+        especializadas para a divisão de um site
+        Outra tag "div" é "nav" que posso utilizar quando tenho barras de navegação 
+        <!--Ver aula 58-->
+
+        Variável: crio um espaço na memória ram para armazenar informação
+
+        Para criar uma variável usamos ":root" no css, de preferência na primeira linha, mas não tem prioridade face ao import das fontes
+        Antes de por algo lá dentro, tenho sempre de colocar dois hífens "--"
+        Onde antes tinha certa informação, agora chamo a variável correspondente a essa informação:
+        "background-color: var(nome_escolhido);"
+
+
+        Quando se trata do tamanho de algum elemento, há uma maneira muito mais simples para fazer correlações matemáticas
+        "calc" permite usar apenas usar uma variável de tamanho e a partir desta consigo fazer diversas alterações, ex:
+        "calc (var (tamanho_1) * 2);" / ex: "widht: calc(100% - 75px)"
+
+        Bootstrap:
+
+        Eu posso reaproveitar códigos de um projeyto para o outro e assim poupar tempo.
+        Framework e bibliotecas são conjuntos de códigos que posso incorporar, mas de maneiras diferentes
+        A biblioteca é mais flexivel, posso usar quando e onde quiser, já os frameworks têm regras:
+
+        O Bootstrap é um exemplo de framework. 
+        Para importar Bootstrap a maneira mais fácil é colocar diretamente no head os links de ligação
+        
+        Ver aula 59, exercício_01 para ver a estrutura base do bootstrap
+
+        Do ponto de vista do Bootstrap um site tem sempre 12 colunas e o nº de linhas que eu quiser; para definir quantas
+        colunas um elemento vai ocupar, utilizo, por exemplo, "class= col-8", sendo 8 o nº de colunas 
+        que desejo que ocupe.
+        Se quiser que não comece na coluna 1 e sim na 3, coloco "offset-3"
+        Se colocar "col-auto" ajusta-se automaticamente ao conteúdo
+        <!--Ver aula 59 e 60-->
+
+        Se quiser reproduzir um media query no bootstrap existem breakpoints que me ajudam
+        "sm/ md/ lg/ xl/ xxl"
+        Ex: "class= col-12 col-lg-16" com isto estou a dizer que quando o navegador estiver com o breakpoint large (>= 992px), 
+        as colunas passam a distribuir-se por 6, fora isso assumem 12.
+
+        Para as bordas, em que uso "border border-dark", também posso aumentar a espessura e arredondar as bordas com as tags do
+        bootstrap
+
+        Quando algum elemento se repete muito numa class, posso colocar no pai uma class que vai afetar todos dentro 
+        <!--Ver aula 61-->
+
+        Para utliziar margin utilizo "m" sendo que os seus valores só vão de 0 a 5
+        Se quiser ser mais especifica posso ainda colocar "mx ou my" para especificar o eixo ou colocar
+        t (top) b(bottom) s(start) e(end) e o "m-auto"
+
+        O padding é exatamente igual com a exceção de não ter um auto. 
+
+        Também é possível manipular o alinhamento do texto(text-left; center; right), o seu tamanho (fs-0,1,2...) e se está em "uppercase, lowercase..."
+        Existe também "fw-bold; normal; light" "fst-normal; italic"
+
+        Text-decoration: "text-decoration-underline; through; none"
+        Line-height: "lh-1; sm; base; lg"
+        <!--Ver aula 62-->
+
+        Display em Bootstrap:
+
+        "d-nome do display desejado"
+
+        O "d-flex" tem de ser colocado no pai:
+        -flex-direction uso: flex-row/column/row-reverse/column-reverse;
+        -flex-wrap: por defeito (e ao contrário do css) o flex wrap já vem ativo, então para desativar
+        basta colocar flex-nowrap;
+        -justify content uso: justify-content-última palavra do valor (exemplo: justify-content-between para justify-content: space between);
+        -align-items uso: align-items-center/ start/ ... (como justify-content)
+        <!--Ver aula 63-->
+
+        -gap uso: gap-0/1/2/3/4/5;
+        -flex-grow: flex-grow-0/1;
+        -flex-shrink: flex-shrink-0/1;
+        <!--Ver aula 64-->
+
+        Com o Bootstrap também posso colocar widht, height, botoes, "cards"
+        <!--Ver aula 65-->
+
+        É sempre importante saber bem a estrutura base para podermos contruir algo de forma mais correta, no caso do bootstrap/css 
+        é innteressante termos sempre em conta 3 divisões principais:
+        "<header class="container-fluid"></header>
+        <main class="container"></main>
+        <footer class="container"></footer>"
+
+        Para além disto, também tem de haver "rows" "cols", podendos ser visto como row o que diferenciamos de cima para baixo e como col
+        o que diferenciamos da esquerda para a direita
+
+        Carousel/ Slide:
+        Copio do site do bootstrap a base já disponibilizada para construir estes slides e preencho com as minhas especificações 
+        Se quiser que o slide vá passando sem ter de lhe mexer tenho de colocar um atributo em que posso também alterar o tempo que demora a passar
+        Para não dar erro é importante que o "ative" esteja apenas na 1º linha do carousel 
+        <!--Ver aula 66-->
+
+        Há vários tipos de carousel que necessitam de atenção a alguns detalhes
+
+        Modal:
+        Para funcionar bem é aconselhado copiar no 2º exemplo para baixo, neste também se repetem as regras do carousel
+        <!--Ver aula 67-->
+
+        Estrutura cíclica: row's e col's dentro de row's e col's
+        
+        Navbar: semelhante ao carousel
+        <!--Ver aula 68 e 69 para ver especificações-->
+
+        INÍCIO DE PYTHON <!--início na aula 74-->
+
+        O PHP, Python e JavaScript não têm estrutura base, basta-me começar a escrever livremente. 
+
+        Se quiser que o programa escreva uma mensagem no ecrã (terminal), escrevo:
+        "print("texto desejado")". 
+
+        Para conseguir fazer várias quebras de linha (como um "br"), em python, utilizo:
+        "print("\n)"
+        Um print vazio também pode significar quebra de linha
+        Para comentar algo, basta um # no início
+
+        ----  ----
+
+        Variáveis são informações que desejo armazenar e desejo utliziar no futuro, em python há 4
+        tipos de variáveis: string(do tipo textual); inteiras; float(nºs com casas décimais); boolean (tipo lógico)
+
+        É importante que os nomes das variáveis estejam em minusculas, sem espaços em brancos e sem nºs
+        Quando quero "correr" uma variável, não coloco aspas duplas quando coloco o nome da variavel dentro do print
+
+        Também é possível utilizar as variáveis para operações matemáticas
+
+        <!--Ver aula 75 para entender como fazer corretamente as variáveis-->
+
+        Enquanto que as funções são digitadas diretamente no código, um método é uma função que vou chamar depois de um objeto.
+        Assim como no css vi que existe o text-transform, aqui também existe, para isso utilizo "exemplo = nome_da_funcao.upper()", o .upper() faz 
+        com que todo o texto fique em maiúscula. Existe também .lower() e .capitalize()
+
+        Se quiser contar todos os carcateres utilizo "len", este pode ser aplicado de 2 formas:
+        - total_caracteres = len(exemplo_teste) <!-- função -->
+        - total_carcteres = exemplo_teste.__len__() <!-- método -->
+
+        Para caracteres específicos utilizo ".count("caracter desejado")"
+
+        Também posso substituir caracteres ".replace("caracter antigo", "caracter novo")". 
+
+        Também é possível fazer cálculos matemáticos. Para isso, utilizo "import math" e consigo fazer raizes, senos ...
+        Com o "import random" consigo gerar um nº aleatório num certo intervalo
+        <!--Ver aula 76 e 77, exercicio 1-->
+
+        Se quiser fazer uma frase com muitas variáveis é muito mais prático usar ".format"
+        Este ".format" pode ter vários métodos, mas para melhor compreensão é melhor ver o exercicio 2 da aula 77
+
+        Para além dos métodos o format tem algumas questões de formatação interna, posso, por exemplo, adicionar espaços entre as palavras, 
+        ver novamente exercicio 2 da aula 77
+
+ 
+
+    </body>
+
+</html>

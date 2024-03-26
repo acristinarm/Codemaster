@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.yellow{
+    background-color: orange;
+    width: 450px;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+    margin: auto;
+    width: 450px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    margin-left: 50px;
+    margin-top: -50px;
+    width: 450px;
+}

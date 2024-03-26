@@ -1,0 +1,65 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+img{
+    border: 2px solid black;
+    width: 500px;
+    margin: 20px;
+}
+
+#img_1{
+    filter: brightness(200%);
+}
+
+#img_2{
+    filter: brightness(50%);
+}
+
+#img_3{
+    filter: blur(3px);
+}
+
+#img_4{
+    filter: grayscale(50%);
+}
+
+#img_5{
+    filter: grayscale(100%);
+}
+
+#img_6{
+    filter: contrast(200%);
+}
+
+#img_7{
+    filter: contrast(25%);
+}
+
+#img_8{
+    filter: drop-shadow(10px 10px 5px red);
+}
+
+#img_9{
+    filter: invert(100%);
+}
+
+#img_10{
+    filter: saturate(20%);
+}
+
+#img_11{
+    filter: saturate(400%);
+}
+
+#img_12{
+    filter: sepia(75%);
+}
+
+#img_13{
+    filter: blur(3px) brightness(50%) invert(100%);
+}
+
+
+
